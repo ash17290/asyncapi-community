@@ -35,7 +35,7 @@ jobs:
         id: verify-changes
         uses: actions/github-script@v6
         with:
-          github-token: ${{ env.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GH_TOKEN }}
           script: |
             const yaml = require("js-yaml");
             const fs = require("fs");
