@@ -32,7 +32,7 @@ jobs:
             echo "No changes detected"
             echo "should_push=false" >> $GITHUB_OUTPUT
           fi
-      - name: Push changes to GitHub
+      - name: Push changes to GitHub - Sample change
         if: steps.git-check.outputs.should_push == 'true'
         uses: peter-evans/create-pull-request@38e0b6e68b4c852a5500a94740f0e535e0d7ba54 # use 4.2.4 https://github.com/peter-evans/create-pull-request/releases/tag/v4.2.4
         with:
