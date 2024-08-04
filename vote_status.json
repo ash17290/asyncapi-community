@@ -1,30 +1,10 @@
-[
-  {
-    "0": "6",
-    "status": "closed"
-  },
-  {
-    "0": "7",
-    "status": "closed"
-  },
-  {
-    "0": "u",
-    "1": "n",
-    "2": "d",
-    "3": "e",
-    "4": "f",
-    "5": "i",
-    "6": "n",
-    "7": "e",
-    "8": "d",
-    "status": "closed"
-  },
-  null,
-  null,
-  null,
-  null,
-  {
+{
+  "6": {
     "status": "open",
-    "last_notified": "2024-08-04T10:36:32.614Z"
-  }
-]
+    "last_notified": "2024-08-04T09:13:37.939Z"
+  },
+  "7": {
+    "status": "open",
+    "last_notified": "2024-08-04T10:23:40.777Z"
+  },
+}
