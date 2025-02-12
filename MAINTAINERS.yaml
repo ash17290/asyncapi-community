@@ -8,3 +8,13 @@
   isTscMember: true
   repos:
     - github-action-for-cli
+
+- name: Lukasz Gornicki
+  github: derberg
+  linkedin: lukasz-gornicki
+  slack: U08CQ499QFN
+  twitter: derberg
+  availableForHire: true
+  isTscMember: true
+  repos:
+    - github-action-for-cli
